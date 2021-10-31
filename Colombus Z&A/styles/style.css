@@ -18,10 +18,10 @@ header {
 }
 
 
-main{
+main {
     height: 100%;
 }
-.mainleft{
+.mainleft {
     position: absolute;
     height: 99%;
     width: 75%;
@@ -29,18 +29,20 @@ main{
     bottom: 180px;
     float: left;
 }
-.mainright{
+.mainright {
     height: 100%;
     width: 25%;
+    margin: 0 auto;
     float: right;
     background-color: gray;
     position:absolute;
     top: 90px;
     right: 0;
+    text-align: center;
 
 }
 
-footer{
+footer {
     background-color: rgb(49, 49, 49);
     height: 120px;
     width: 100%;
@@ -51,7 +53,7 @@ footer{
 
 }
 
-.glrLogo{
+.glrLogo {
     float: right;
     height: 80px;
     width: auto;
@@ -59,7 +61,7 @@ footer{
     bottom: 30px;
     right: 50px;
 }
-.glrLogoText{
+.glrLogoText {
     float: right;
     margin: 0;
     width: auto;
@@ -69,11 +71,13 @@ footer{
 
 }
 
-.search{
+.search {
     height: auto;
-    width: 25%;
-    border: none;
-
+    width: 80%;
+    position: relative;
+    margin: 0;
+    border: solid black;
+    display: block;
 
 }
 
@@ -97,13 +101,13 @@ footer{
 
 }
 
-.link{
+.link {
     font-weight: bold;
     text-decoration: none;
     color: rgb(117, 117, 117);
 
 }
-.link:hover{
+.link:hover {
     color: white;
 }
 
@@ -114,7 +118,7 @@ footer{
 
 }
 
-.scrollbar{
+.scrollbar {
     overflow-y: scroll;
     overflow-x: hidden;
     height: auto;
