@@ -93,6 +93,10 @@ footer {
     transition-duration: 200ms;
     transition-delay: 4ms;
     color: darkred;
+    margin-right: 50px;
+    position: relative;
+    top: 17px;
+    font-size: 20px;
 
 }
 .navlink:hover {
