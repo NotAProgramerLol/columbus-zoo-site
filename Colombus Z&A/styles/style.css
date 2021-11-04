@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /**alle kleuren moeten we wel nog veranderen**/
 
 html, 
@@ -172,4 +173,190 @@ footer {
     padding: 20px;
     font-size: 30px;
     text-align: center;
+=======
+/**alle kleuren moeten we wel nog veranderen**/
+
+html, 
+body {
+    margin: 0;
+    background-color: white;
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+}
+
+header {
+    background-color: khaki;
+    height: 90px;
+    margin-bottom: 20px;
+}
+
+
+main {
+    height: 100%;
+}
+.mainleft {
+    position: absolute;
+    height: 99%;
+    width: 75%;
+    top: 90px;
+    bottom: 180px;
+    float: left;
+}
+.mainright {
+    height: 100%;
+    width: 25%;
+    margin: 0 auto;
+    float: right;
+    background-color: gray;
+    position:absolute;
+    top: 90px;
+    right: 0;
+    text-align: center;
+
+}
+
+#mainvid{
+    
+
+}
+#mainnews{
+
+
+}
+
+footer {
+    background-color: rgb(49, 49, 49);
+    height: 120px;
+    width: 100%;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+
+}
+
+.glrLogo {
+    float: right;
+    height: 80px;
+    width: auto;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+}
+.glrLogoText {
+    float: right;
+    margin: 0;
+    width: auto;
+    position: relative;
+    bottom: 10px;
+    right: 130px;
+
+}
+
+.search {
+    height: auto;
+    width: 80%;
+    position: relative;
+    margin: 0;
+    border: solid black;
+    display: block;
+
+}
+
+.navbar {
+    float: right;
+    margin: 10px;
+
+}
+
+.navlink {
+    font-weight: bold;
+    text-decoration: none;
+    transition-duration: 200ms;
+    transition-delay: 4ms;
+    color: darkred;
+    margin-right: 50px;
+    position: relative;
+    top: 17px;
+    font-size: 20px;
+    border: 3px solid black;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+.navlink:hover {
+    border-bottom: solid rgb(0, 0, 0);
+    background-color: rgb(54, 54, 54);
+    color: khaki;
+    border-radius: 80px;
+    transition-duration: 575ms;
+}
+
+.link {
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(117, 117, 117);
+    font-size: 20px;
+
+}
+.link:hover {
+    color: white;
+}
+
+.logo {
+    margin: 10px;
+    height: 100px;
+    width: auto;
+
+}
+
+.scrollbar {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: auto;
+    bottom: 140px;
+
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: khaki;
+    padding: 10px;
+  }
+  
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(240, 230, 180);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .grid-container-social {
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  
+  .grid-item-social {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(240, 230, 180);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .glrLogo {
+      width: 80px;
+  }
+
+  .glrLogoText {
+    position: relative;
+    top: -45px;
+    font-size: 20px;
+>>>>>>> acf92f102823ff7113b1cf2cfe0a638517c373a3
   }
