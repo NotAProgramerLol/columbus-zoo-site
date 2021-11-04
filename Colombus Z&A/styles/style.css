@@ -86,8 +86,9 @@ footer {
     height: auto;
     width: 80%;
     position: relative;
-    margin: 0;
+    margin-left: 10px;
     border: solid black;
+    border-radius: 8px;
     display: block;
 
 }
