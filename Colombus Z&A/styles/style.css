@@ -45,6 +45,7 @@ main {
 
 #mainvid{
     float: left;
+    position: relative;
 
 }
 #mainnews{
