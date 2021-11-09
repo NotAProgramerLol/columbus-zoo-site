@@ -44,14 +44,11 @@ main {
 }
 
 #mainvid{
-    float: right;
-
-    top: 20px;
-
+    float: left;
 
 }
 #mainnews{
-    position: relative;
+
 
 }
 
@@ -100,8 +97,6 @@ footer {
 .navbar {
     float: right;
     margin: 10px;
-    position: relative;
-    top: -130%;
 
 }
 
@@ -179,8 +174,6 @@ footer {
     grid-template-columns: 50px 50px 50px;
     padding: 10px;
     margin-top: 10px;
-    width: 200px;
-
   }
   
   .grid-item-social {
