@@ -152,17 +152,20 @@ footer {
     display: grid;
     grid-template-columns: auto auto auto;
     background-color: khaki;
-    padding: 65px;
-    margin: 20px;
+    padding: 60px;
+    margin: 80px;
    
   }
   
-  .grid-item {
+  .grid-Dier {
     background-color: rgba(255, 255, 255, 0.8);
     border: 5px solid rgba(240, 230, 180);
     padding: 20px;
     font-size: 30px;
     text-align: center;
+    width: 	100px;
+    height: 100px;
+    margin: 50px;
   }
 
   .grid-container-social {
