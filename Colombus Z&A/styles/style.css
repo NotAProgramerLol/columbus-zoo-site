@@ -66,8 +66,9 @@ footer {
 .glrLogo {
     float: right;
     height: 60px;
-    width: auto;
+    width:  50px;
     position: absolute;
+    top: 5px;
     bottom: 25px;
     right: 70px;
 }
@@ -76,17 +77,19 @@ footer {
     margin: 0;
     width: auto;
     position: relative;
-    bottom: 80px;
+    bottom: 35px;
     right: 130px;
 
 }
 
 .search {
     height: auto;
-    width: 80%;
+    width: 90%;
     position: relative;
-    margin: 0;
-    border: solid black;
+    margin-top: 5px;
+    margin-left: 5%;
+    border: 1px solid black;
+    border-radius: 1px;
     display: block;
 
 }
@@ -141,7 +144,7 @@ footer {
     overflow-y: scroll;
     overflow-x: hidden;
     height: auto;
-    bottom: 140px;
+    bottom: 70px;
 
 }
 
