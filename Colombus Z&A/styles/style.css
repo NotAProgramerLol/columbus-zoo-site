@@ -149,12 +149,14 @@ footer {
     display: grid;
     grid-template-columns: auto auto auto;
     background-color: khaki;
-    padding: 10px;
+    padding: 65px;
+    margin: 20px;
+   
   }
   
   .grid-item {
     background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(240, 230, 180);
+    border: 5px solid rgba(240, 230, 180);
     padding: 20px;
     font-size: 30px;
     text-align: center;
