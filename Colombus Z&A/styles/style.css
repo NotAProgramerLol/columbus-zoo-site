@@ -45,10 +45,17 @@ main {
 
 #mainvid{
     float: right;
+    margin: 5px;
+    width: auto;
+    height: 157.5px;
+    text-align: center;
+    border: solid darkred 5px;
+
 
 }
 #mainnews{
     position: static;
+    margin-left: 13px;
 
 }
 
@@ -66,7 +73,7 @@ footer {
 .glrLogo {
     float: right;
     height: 60px;
-    width:  50px;
+    width:  auto;
     position: absolute;
     top: 5px;
     bottom: 25px;
@@ -127,6 +134,9 @@ footer {
     font-weight: bold;
     text-decoration: none;
     color: rgb(117, 117, 117);
+    margin-right: 10px;
+    font-size: large;
+    padding: 20px 0px 20px 0px;
 
 }
 .link:hover {
