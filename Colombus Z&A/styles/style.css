@@ -162,10 +162,11 @@ footer {
     border: 5px solid rgba(240, 230, 180);
     padding: 20px;
     font-size: 30px;
-    text-align: center;
-    width: 	100px;
-    height: 100px;
+    position: relative;
+    width: 	10px;
+    height: 50px;
     margin: 50px;
+    text-align: center;
   }
 
   .grid-container-social {
@@ -181,4 +182,7 @@ footer {
     padding: 20px;
     font-size: 30px;
     text-align: center;
+  }
+  .fotodier{
+      width: 100px;
   }
