@@ -163,41 +163,28 @@ footer {
     display: grid;
     grid-template-columns: auto auto auto;
     background-color: khaki;
-    padding: 60px;
-    margin: 80px;
+    height: 100%;
+    margin: 20px;
+    text-align: center;
    
-  }
+}
   
   .grid-Dier {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 5px solid rgba(240, 230, 180);
-    padding: 20px;
+
+   
+
     font-size: 30px;
     position: relative;
     width: 	10px;
     height: 50px;
     margin: 50px;
-    text-align: center;
-  }
-
-  .grid-container-social {
-    display: grid;
-    grid-template-columns: 120px 120px 120px;
-    padding: 10px;
-    margin-top: 10px;
-  }
-  
-  .grid-item-social {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(240, 230, 180);
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
-  }
-
-  .fotodier{
-    width: 100px;
+    
 }
+    .fotodier{
+        border: solid rgba(255, 255, 255, 0.541) 7px;
+    width: 200px;
+  }
+
 
   .modal {
     display: none; /* Hidden by default */
@@ -286,4 +273,5 @@ footer {
     from {top: 200px; opacity: 1}
     to {top: -300px; opacity: 0}
   } 
+  
   
