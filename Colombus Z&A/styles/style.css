@@ -195,6 +195,11 @@ footer {
     text-align: center;
   }
 
+  .socialPic{
+    width: 200px;
+
+  }
+
   .fotodier{
     width: 100px;
 }
