@@ -154,35 +154,35 @@ footer {
 .scrollbar {
     overflow-y: scroll;
     overflow-x: hidden;
-    height: auto;
     bottom: 70px;
-
+    height: calc(100vh - 180px);
+  text-align: center;
 }
 
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
     background-color: khaki;
-    height: 100%;
-    margin: 20px;
+    margin: 10px;
     text-align: center;
-   
+    height: inherit;
+   padding-bottom: 60px; 
+   text-align: center;
 }
   
   .grid-Dier {
-
-   
-
     font-size: 30px;
     position: relative;
     width: 	10px;
     height: 50px;
     margin: 50px;
+   
     
 }
     .fotodier{
         border: solid rgba(255, 255, 255, 0.541) 7px;
-    width: 200px;
+    width: 220px;
+    margin-left: 85px ;
   }
 
 
