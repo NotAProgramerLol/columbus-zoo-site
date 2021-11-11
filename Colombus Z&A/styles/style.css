@@ -120,7 +120,7 @@ footer {
     border: 3px solid black;
     padding: 10px;
     border-radius: 5px;
-
+  background-color: khaki;
 }
 .navlink:hover {
     border-bottom: solid rgb(0, 0, 0);
@@ -232,13 +232,11 @@ footer {
     animation-duration: 0.4s;
   }
   
-  .close:hover,
-  .close:focus {
+  .close:hover {
     color: black;
     text-decoration: none;
     cursor: pointer;
     animation-name: closetransition;
-    animation-duration: 0.4s;
   }
 
    /* Modal Header */
@@ -264,26 +262,17 @@ footer {
   background-color: #fefefe;
   margin: auto;
   padding: 0;
-  border: 1px solid #888;
+  border: 1px solid rgb(0, 0, 0);
   width: 80%;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 4px 8px 0 rgb(0, 0, 0),0 6px 20px 0 rgba(12, 12, 12, 0.19);
   animation-name: animatetop;
   animation-duration: 0.4s
+  
 }
 
 /* Add Animation */
 @keyframes animatetop {
-  from {top: -300px; opacity: 0}
-  to {top: 200px; opacity: 1}
+  from {top: -150px; opacity: 0}
+  to {top: 50px; opacity: 1}
 } 
 
-@keyframes closetransition {
-    from {top: 200px; opacity: 1}
-    to {top: -300px; opacity: 0}
-  } 
-
-  @keyframes closetransition2 {
-    from {top: 200px; opacity: 1}
-    to {top: -300px; opacity: 0}
-  } 
-  

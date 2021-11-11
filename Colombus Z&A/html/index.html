@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="authors" content="Oliver, Stef & Walid">
     <title>Columbus-zoo, Homepage</title>
-    
+
 </head>
 
 <body>
@@ -16,9 +16,9 @@
         <a href="index.html"><img src="../imgs/columbus-zoo-logo.png" alt="logo" class="logo"></a>
 
         <div class="navbar">
-            <a href="Dieren.html" class="navlink">Dieren</a>
-            <a href="tickets.html" class="navlink">Tickets</a>
             <a href="index.html" class="navlink">Home</a>
+            <a href="Dieren.html" class="navlink">Dieren</a>
+            <button class="navlink" id="myBtn">Tickets</button>
 
         </div>
 
@@ -29,7 +29,10 @@
 
 
             <div id="mainvid">
-                <iframe width="280" height="157.5" src="https://www.youtube.com/embed/NlKCTwsQCq0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="280" height="157.5" src="https://www.youtube.com/embed/NlKCTwsQCq0"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
 
             </div>
 
@@ -46,7 +49,7 @@
                 <input class="search" type="text" placeholder="Search...">
             </div>
             <div>
-                
+
 
             </div>
             <div>
@@ -56,23 +59,62 @@
 
         </div>
 
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span class="close">&times;</span>
+                    <h2>Modal Header</h2>
+                </div>
+                <div class="modal-body">
+                    <p>Some text in the Modal Body</p>
+                    <p>Some other text...</p>
+                </div>
+                <div class="modal-footer">
+                    <h3>Modal Footer</h3>
+                </div>
+            </div>
+            <div class="ticket1"></div>
+            <script>
+                //scripts folder//
+
+                var modal = document.getElementById("myModal");
+
+                var btn = document.getElementById("myBtn");
+
+                var span = document.getElementsByClassName("close")[0];
+
+                btn.onclick = function () {
+                    modal.style.display = "block";
+                }
+
+                span.onclick = function () {
+                    modal.style.display = "none";
+                }
+
+                window.onclick = function (event) {
+                    if (event.target == modal) {
+                        modal.style.display = "none";
+                    }
+                }
+            </script>
     </main>
 
     <footer>
         <p></p>
-        <a href="about.html" class="link">Over ons </a> 
-        
+        <a href="about.html" class="link">Over ons </a>
+
         <a href="contact.html" class="link">Contact</a>
-            
-            <a href="klachten.html" class="link">Klachten</a>
-    </div>
-    
-    <div>
-        <p>
-        <p class="glrLogoText">Powered by:</p> <a href="https://www.glr.nl/" target="_blank"><img class="glrLogo" src="../imgs/glrlogo.png" alt="makerlogo"></a>
-    </div>
-        
-     
+
+        <a href="klachten.html" class="link">Klachten</a>
+        </div>
+
+        <div>
+            <p>
+            <p class="glrLogoText">Powered by:</p> <a href="https://www.glr.nl/" target="_blank"><img class="glrLogo"
+                    src="../imgs/glrlogo.png" alt="makerlogo"></a>
+        </div>
+
+
     </footer>
 
 </body>
