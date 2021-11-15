@@ -46,14 +46,15 @@
 
             </div>
 
+
+
         </div>
         <div class="mainright">
             <div>
                 <input class="search" type="text" placeholder="Search...">
             </div>
             <div>
-                <svg id="druktechart">
-                </svg>
+                <svg id="druktechart"></svg>
 
             </div>
             <div>
@@ -79,8 +80,6 @@
             </div>
             <div class="ticket1"></div>
             <script>
-                //scripts folder//
-
                 var modal = document.getElementById("myModal");
 
                 var btn = document.getElementById("myBtn");
@@ -122,5 +121,17 @@
     </footer>
 
 </body>
+
+<script>
+var myData = ["1,2000", "2,1100" ,"3,1500", "4,1700" ,"5,2200", "6,2300",
+"7,1500" ,"8,1950" ,"9,1970" ,"10,2500" ,"11,1860" ,"12,1920"];
+
+var barChart = new NiceChart('Line', {
+    renderHere : 'druktechart',
+    input : myData
+}).render();
+    </script>
+
+
 
 </html>
