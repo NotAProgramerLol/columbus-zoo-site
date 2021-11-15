@@ -9,6 +9,9 @@
     <meta name="authors" content="Oliver, Stef & Walid">
     <title>Columbus-zoo, Homepage</title>
 
+    <script src="../scripts/niceChart.js-master/nicechart.1.1.js"></script>
+    <script src="../scripts/niceChart.js-master/nicechart.master.1.1.js"></script>
+
 </head>
 
 <body>
@@ -49,7 +52,30 @@
                 <input class="search" type="text" placeholder="Search...">
             </div>
             <div>
-
+                <script>var mydata = {
+                    label : ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
+                    series : [
+                      {
+                        name : 'Device1',
+                        color  : 'red',
+                        data : [100, 550, 400, 700, 500, 900, 1000]
+                      },
+                      {
+                        name : 'Device2',
+                        color  : '#F97D10',
+                        data : [200, 450, 500, 800, 600, 1000, 1100]
+                      },
+                      {
+                        name : 'Device3',
+                        color  : '#950aa8',
+                        data : [300, 700, 550, 850, 650, 1100, 1200]
+                      },{
+                        name : 'Device6',
+                        color  : 'green',
+                        data : [500, 800, 650, 1000, 750, 750, 750]
+                      }
+                    ]
+                }</script>
 
             </div>
             <div>

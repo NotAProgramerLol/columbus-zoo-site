@@ -218,7 +218,6 @@ footer {
     overflow: auto; /* Enable scroll if needed */
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-    background-color;
   }
 
   
@@ -294,3 +293,13 @@ footer {
 #myBtn {
   cursor: pointer;
 }
+
+@keyframes closetransition {
+    from {top: 200px; opacity: 1}
+    to {top: -300px; opacity: 0}
+  } 
+
+  @keyframes closetransition2 {
+    from {top: 200px; opacity: 1}
+    to {top: -300px; opacity: 0}
+  } 
