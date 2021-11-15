@@ -284,8 +284,7 @@ footer {
   to {top: 50px; opacity: 1}
 } 
 
-<<<<<<< HEAD
-=======
+
 @keyframes closetransition {
     from {top: 200px; opacity: 1}
     to {top: -300px; opacity: 0}
@@ -295,6 +294,3 @@ footer {
     from {top: 200px; opacity: 1}
     to {top: -300px; opacity: 0}
   } 
-  
-  
->>>>>>> 7448d9bb19c16f16183f74794a12e541c9b75f00
