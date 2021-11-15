@@ -213,11 +213,12 @@ footer {
     z-index: 0; /* Sit on top */
     left: 25%;
     top: 200px;
-    width: 50%; /* Full width */
-    height: 50%; /* Full height */
+    width: 60%; /* Full width */
+    height: 60%; /* Full height */
     overflow: auto; /* Enable scroll if needed */
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    background-color;
   }
 
   
@@ -255,7 +256,13 @@ footer {
 }
 
 /* Modal Body */
-.modal-body {padding: 2px 16px;}
+.modal-body {
+  padding: 2px 16px;
+  position: relative;
+  left: 15%;
+
+
+}
 
 /* Modal Footer */
 .modal-footer {
@@ -274,27 +281,16 @@ footer {
   width: 80%;
   box-shadow: 0 4px 8px 0 rgb(0, 0, 0),0 6px 20px 0 rgba(12, 12, 12, 0.19);
   animation-name: animatetop;
-  animation-duration: 0.4s
+  animation-duration: 0.1s
   
 }
 
 /* Add Animation */
 @keyframes animatetop {
-  from {top: -150px; opacity: 0}
+  from {bottom: -100px; opacity: 0}
   to {top: 50px; opacity: 1}
 } 
 
-<<<<<<< HEAD
-=======
-@keyframes closetransition {
-    from {top: 200px; opacity: 1}
-    to {top: -300px; opacity: 0}
-  } 
-
-  @keyframes closetransition2 {
-    from {top: 200px; opacity: 1}
-    to {top: -300px; opacity: 0}
-  } 
-  
-  
->>>>>>> 7448d9bb19c16f16183f74794a12e541c9b75f00
+#myBtn {
+  cursor: pointer;
+}
