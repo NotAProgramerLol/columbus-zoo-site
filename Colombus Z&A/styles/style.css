@@ -186,6 +186,11 @@ footer {
         width: 220px;
     margin-left: 85px ;
   }
+  .fotodier:hover{
+    background: red;
+  
+  }
+  
   .grid-Dier{
     font-size: 18px;
   }
