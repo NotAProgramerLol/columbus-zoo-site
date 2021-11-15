@@ -171,18 +171,25 @@ footer {
 }
   
   .grid-Dier {
-    font-size: 30px;
+    font-size: 328px;
     position: relative;
     width: 	10px;
     height: 50px;
-    margin: 50px;
+    margin: 30px;
+    
    
 }
     .fotodier{
         border: solid rgba(255, 255, 255, 0.541) 7px;
-    width: 220px;
+   
+
+        width: 220px;
     margin-left: 85px ;
   }
+  .grid-Dier{
+    font-size: 18px;
+  }
+
 
   .grid-container-social {
     display: grid;
@@ -204,8 +211,7 @@ footer {
 
   }
 
-  .fotodier{
-    width: 100px;
+
 }
   .modal {
     display: none; /* Hidden by default */
