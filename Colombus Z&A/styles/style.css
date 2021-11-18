@@ -167,7 +167,6 @@ footer {
     text-align: center;
     height: inherit;
    padding-bottom: 60px; 
-   text-align: center;
 }
   
   .grid-Dier {
@@ -176,25 +175,19 @@ footer {
     width: 	10px;
     height: 50px;
     margin: 30px;
-    
-   
-}
-    .fotodier{
-        border: solid rgba(255, 255, 255, 0.541) 7px;
-   
-
-        width: 220px;
-    margin-left: 85px ;
   }
+  .fotodier{
+    border: solid rgba(255, 255, 255, 0.541) 7px;
+    width: 220px;
+    margin-left: 85px ;
+    }
   .fotodier:hover{
     background: red;
-    
   }
   
   .grid-Dier{
     font-size: 18px;
   }
-
 
   .grid-container-social {
     display: grid;
@@ -213,7 +206,6 @@ footer {
 
   .socialPic{
     width: 200px;
-
   }
 
 
@@ -234,7 +226,6 @@ footer {
 #druktechart{
   margin-top: 15px;
   font-size: small;
-
 }
   
 /* Modal Content/Box */
@@ -275,8 +266,6 @@ footer {
   padding: 2px 16px;
   position: relative;
   left: 15%;
-
-
 }
 
 /* Modal Footer */
@@ -296,8 +285,7 @@ footer {
   width: 80%;
   box-shadow: 0 4px 8px 0 rgb(0, 0, 0),0 6px 20px 0 rgba(12, 12, 12, 0.19);
   animation-name: animatetop;
-  animation-duration: 0.1s
-  
+  animation-duration: 0.1s  
 }
 
 /* Add Animation */
