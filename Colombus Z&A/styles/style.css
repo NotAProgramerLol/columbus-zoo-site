@@ -168,6 +168,10 @@ footer {
     height: inherit;
    padding-bottom: 60px; 
 }
+.grid-container p{
+  margin-left: 350px;
+  margin-top: -150px;
+}
   
   .grid-Dier {
     font-size: 328px;
