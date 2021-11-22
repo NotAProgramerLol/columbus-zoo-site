@@ -172,6 +172,24 @@ footer {
   margin-left: 350px;
   margin-top: -150px;
 }
+  .ContainerDieren{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: khaki;
+    margin: 5%;
+    padding: 5%;
+    padding-left: 30%;
+    text-align: center;
+    height: inherit;
+    
+
+  }
+  .ftD{
+    
+    border: 6px rgba(196, 185, 92, 0.938);
+    
+    border-style: solid;
+  }
   
   .grid-Dier {
     font-size: 328px;
@@ -192,6 +210,7 @@ footer {
   .grid-Dier{
     font-size: 18px;
   }
+  
 
   .grid-container-social {
     display: grid;
