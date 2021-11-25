@@ -188,14 +188,17 @@ footer {
   }
 .map {
   margin-top: 10%;
-  margin-left: 35%;
+  margin-left: 20%;
   background-color: rgba(196, 185, 92, 0.938);
   border: double 8px ;
+  width: 60vw;
+  height: auto;
 }
   .ftD{
     background-color: rgba(196, 185, 92, 0.938);
     border: double 8px ;
     margin-left: 100px;
+    margin-top: 10%;
   }
   
   .grid-Dier {
