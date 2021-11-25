@@ -177,18 +177,28 @@ footer {
     grid-template-columns: auto auto auto;
     background-color: khaki;
     margin: 5%;
+    margin-bottom: 100px;
     padding: 5%;
-    padding-left: 30%;
+    padding-left: 2%;
+    padding-right: 3%;
     text-align: center;
     height: inherit;
     
 
   }
+.map {
+  margin-top: 10%;
+  margin-left: 20%;
+  background-color: rgba(196, 185, 92, 0.938);
+  border: double 8px ;
+  width: 60vw;
+  height: auto;
+}
   .ftD{
-    
-    border: 6px rgba(196, 185, 92, 0.938);
-    
-    border-style: solid;
+    background-color: rgba(196, 185, 92, 0.938);
+    border: double 8px ;
+    margin-left: 100px;
+    margin-top: 10%;
   }
   
   .grid-Dier {
@@ -201,12 +211,12 @@ footer {
   .fotodier{
     border: solid rgba(255, 255, 255, 0.541) 7px;
     width: 220px;
-    margin-left: 85px ;
+    margin-left: 60px ;
     }
   .fotodier:hover{
     background: red;
   }
-  
+
   .grid-Dier{
     font-size: 18px;
   }
