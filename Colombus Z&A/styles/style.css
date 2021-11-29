@@ -56,6 +56,8 @@ main {
 #mainnews{
     position: static;
     margin-left: 13px;
+    margin: 5%;
+    background-color:rgba(240, 230, 140, 0.555);
 
 }
 
@@ -484,4 +486,21 @@ background-color: rgb(54, 54, 54);
   color: khaki;
 
   transition-duration: 575ms;
+}
+#FrontIMG{
+  position: relative;
+  left: 7%;
+  margin-top: 260px;
+  border: 5px double rgba(49, 47, 26, 0.432);
+}
+.LastDiv{
+    position: inherit;
+    margin-right: 30%;
+    margin-left: 3%;
+}
+#LAstThings{
+  position: relative;
+  left: 20%;
+  margin-top: 250px;
+  border: 5px double rgba(49, 47, 26, 0.432);
 }
